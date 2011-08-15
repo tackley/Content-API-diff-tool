@@ -3,7 +3,7 @@ package com.google.xmldiff
 import org.scalatest.FunSuite
 import org.scalatest.matchers.ShouldMatchers
 
-class ComparisonSuite extends FunSuite with ShouldMatchers {
+class ComparisonTest extends FunSuite with ShouldMatchers {
   val comparator = new Comparison
 
   test("comparing equal xml nodes") {
